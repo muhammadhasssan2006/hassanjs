@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Practice-web</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div>
+    <header class="w-100 d-none d-md-block">
+      <img src="./assets/header-offer-banner.jpg" alt=" banner" width="100%">
+    </header>
+    <div>
+      <nav class="navbar navbar-expand-lg  navbar-dark text-light bg-dar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./assets/logo.jpg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex w-75 seachinp" role="search">
+            <input style="width: 100%;" class="form-control me-2 justify-content-center" type="search"
+              placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link ">About Us</a>
+            </li>
+            <li class="nav-item">
+              <i class="fa-solid fa-user-group"></i>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+    <div class="carosel">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/sample-1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h2 class="text-right">New Women Clothes Collection</h2>
+              <p>Up To 50% Off Best Selling At $199.99</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/sample-2.jpg " class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h5>Interior Berger Paints Livingroom</h5>
+              <p>Up To 40% Off Best Selling At $199.99</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div><br>
+
+
+    <div class="container text-center border border-2 p-4 rounded">
+      <div class="row ">
+        <h4 class=" text-start">Shop by Categories</h4>
+        <hr>
+        <div class="col">
+          <img src="./assets/category1.jpg" alt="jpg">
+          <h5>Whole Sale</h5>
+        </div>
+        <div class="col text-center">
+          <img src="./assets/category2.jpg" alt="jpg">
+          <h5>Wireless EarBud</h5>
+        </div>
+        <div class="col">
+          <img src="./assets/category3.jpg" alt="jpg">
+          <h5>Attractive Bags</h5>
+        </div>
+        <div class="col">
+          <img src="./assets/category4.jpg" alt="jpg">
+          <h5>Home Sensor</h5>
+        </div>
+        <div class="col">
+          <img src="./assets/category5.jpg" alt="">
+          <h5>Whole Sale</h5>
+        </div>
+      </div>
+    </div><br>
+
+
+    <div class="container  ">
+      <div class="row gap-4">
+        <div class="col-md-4  rounded img-1  p-4">
+          <h4 class="text-start ">Boat Rockerz <br>
+            450 Pro</h4>
+          <a href="./index.html "><span class="anchortag1">Shop Now</span></a>
+        </div>
+        <div class="col-md-4 img-2 ">
+          <div style="">
+            <h1>Georg Jensen</h1>
+            <p>Shop Now</p>
+          </div>
+          <!-- <h4 class="p-4 text-start  ">Georg Jensen <br>
+                Clock</h4>
+                <a  href="./index.html "><span class="anchortag2">Shop Now</span></a> -->
+
+        </div>
+        <div class="col-md-4 img-3">
+          <div style="">
+            <h1>Georg Jensen</h1>
+            <a href="./index.html "><span class="anchortag3">Shop Now</span></a>
+          </div>
+          <h4 class="p-4 text-start">Slikee Women <br>
+            Backpack</h4>
+          <a href="./index.html "><span class="anchortag3">Shop Now</span></a>
+
+        </div>
+      </div>
+    </div><br>
+
+   <div class="container">
+      <div class="main">
+        <div class="row">
+          <div style="text-align: center;align-items: center;" class="col-md-3">
+            <img width="200px" src="./assets/home_default-1.jpg" />
+            <h6>Brand: Looney Tunes Condition: New
+              €82.00</h6>
+            <button type ="button" class="btn btn-secondary btn-lg cartcolor">Add To Cart <i
+                class="fa-solid fa-cart-plus"></i></button>
+
+          </div>
+          <div style="text-align: center;align-items: center;" class="col-md-3">
+            <img width="200px" src="./assets/home_default-1.jpg" />
+            <h6>Brand: Looney Tunes Condition: New
+              €82.00</h6>
+            <button type="button" class="btn btn-secondary btn-lg cartcolor">Add To Cart <i
+                class="fa-solid fa-cart-plus"></i></button>
+
+          </div>
+          <div style="text-align: center;align-items: center;" class="col-md-3">
+            <img width="200px" src="./assets/home_default-1.jpg" />
+            <h6>Brand: Looney Tunes Condition: New
+              €82.00</h6>
+            <button type="button" class="btn btn-secondary btn-lg cartcolor">Add To Cart <i
+                class="fa-solid fa-cart-plus"></i></button>
+
+          </div>
+          <div style="text-align: center;align-items: center;" class="col-md-3">
+            <img width="200px" src="./assets/home_default-1.jpg" />
+            <h6>Brand: Looney Tunes Condition: New
+              €82.00</h6>
+            <button type="button" class="btn btn-secondary btn-lg cartcolor">Add To Cart <i
+                class="fa-solid fa-cart-plus"></i></button>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-center border border-2 rounded overflow-hidden  ">
+      <div class="row overflow-hidden flex-center  section3">
+        <h4 class="text-start p-2">Trending Products</h4>
+        <hr>
+        <div class="col-3 flex-center">
+          <div>
+            <img src="./assets/home_default-1.jpg" alt="jpg">
+            <h5>Brand: Looney Tunes
+              Condition: New <br>
+              €82.00</h5>
+            <button type="button" class="btn btn-secondary btn-lg cartcolor">Add To Cart <i
+                class="fa-solid fa-cart-plus"></i></button>
+          </div>
+          <div>
+            <img src="./assets/home_default-5.jpg" alt="jpg">
+            <h5>Brand: Looney Tunes
+              Condition: New <br>
+              €79.00</h5>
+            <button type="button" class="btn btn-secondary btn-lg cartcolor">Add To Cart <i
+                class="fa-solid fa-cart-plus"></i></button>
+
+          </div>
+        </div>
+        <div class="col-3 flex-center ">
+          <div>
+            <img src="./assets/home_default-2.jpg" alt="jpg">
+            <h5>Brand: The Simpsons
+              Condition: Refurbished
+              €84.00 €80.00 <span class="text-primary">SAVE €4.00</span> </h5>
+            <button type="button" class="btn btn-secondary btn-lg cartcolor">Add To Cart <i
+                class="fa-solid fa-cart-plus"></i></button>
+          </div>
+          <div>
+            <img src="./assets/home_default-6.jpg" alt="jpg">
+            <h5>Brand: Gadget Zone
+              Condition: Refurbished
+              €68.00
+            </h5>
+            <button type="button" class="btn btn-secondary btn-lg cartcolor">Add To Cart <i
+                class="fa-solid fa-cart-plus"></i></button>
+
+          </div>
+        </div>
+        <div class="col-3 flex-center">
+          <div>
+            <img src="./assets/home_default-3.jpg" alt="jpg">
+            <h5>Brand: Looney Tunes
+              Condition: New <br>
+              €76.00</h5>
+            <button type="button" class="btn btn-secondary btn-lg cartcolor">Add To Cart <i
+                class="fa-solid fa-cart-plus"></i></button>
+          </div>
+          <div>
+            <img src="./assets/home_default-7.jpg" alt="jpg">
+            <h5>Brand: The Simpsons
+              Condition: Used
+              €62.00 €58.28 <span class="text-primary"> SAVE 6%</span></h5>
+            <button type="button" class="btn btn-secondary btn-lg cartcolor">Add To Cart <i
+                class="fa-solid fa-cart-plus"></i></button>
+
+          </div>
+        </div>
+        <div class="col-3 flex-center">
+          <div class="flex-center">
+            <img src="./assets/home_default-4.jpg" alt="jpg">
+            <h5>Brand: Initech space
+              Condition: New
+              €61.00 €56.12 <span class="text-primary">SAVE 8%</span></h5>
+            <button type="button" class="btn btn-secondary btn-lg cartcolor">Add To Cart <i
+                class="fa-solid fa-cart-plus"></i></button>
+          </div>
+          <div>
+            <img src="./assets/home_default-8.jpg" alt="jpg">
+            <h5>Brand: The Simpsons
+              Condition: New
+              €108.00 €100.00 <span class="text-primary">SAVE €8.00</span></h5>
+            <button type="button" class="btn btn-secondary btn-lg cartcolor">Add To Cart <i
+                class="fa-solid fa-cart-plus"></i></button>
+
+          </div>
+        </div>
+      </div><br>
+    </div><br>
+
+
+
+    
+    
+  <div class="container text-center">
+    <div class="row gap-4">
+      <div class="col rounded img-4">
+        <h1 class="text-light text-start p-4">Lava Z6 Camera <br>
+          Phone</h1>
+        <a href="./index.html"><span class="anchortag4">Shop Now</span></a>
+      </div><br>
+      <div class="col rounded img-5">
+        <h1 class="text-start p-4">Brooklyn V Shape <br>
+          Chair</h1>
+        <a href="./index.html"><span class="anchortag5">Shop Now</span></a>
+      </div>
+    </div>
+
+    <div class="container text-center">
+      <div class="row m-0 p-0">
+        <div class="col-12 w-100  offer-banner d-flex justify-content-around bannerImg  align-items-center">
+          <h4 class="text-light">Best Offer Coupan Zone</h3>
+            <button type="button" class="btn btn-light ">Shop Now</button>
+        </div>
+      </div><br>
+      <div class="container text-center">
+        <div class="row bg-dark rounded">
+          <div class="col-md-6 d-flex text-white">
+            <img class="rounded-circle h-100 border border-2" src="./assets/user1.png" alt="">
+            <div class="pt-2">
+              <h5 class=" text-align-left ">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. <br> Iure, possimus.</h5><br>
+                <h5>MARK JAFFERSON</h5>
+                <p>(DESIGNER)</p>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex text-white">
+              <img class="rounded-circle h-100 border border-2" src="./assets/user1.png" alt="">
+              <div class="pt-2">
+                <h5 class=" text-align-left ">Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. <br> Iure, possimus.</h5><br>
+                  <h5>MARK JAFFERSON</h5>
+                  <p>(DESIGNER)</p>
+                </div>
+              </div><br><br>
+              <!-- <div> -->
+                <!-- <div class="col-md-6  text-light ">
+                  <div class="d-flex">
+                    
+                    <div class="">
+                      
+                      <img class="rounded-circle h-100 border border-2 " src="./assets/user1.png" alt="">
+                    </div>
+                    <div>
+                      
+                      <h5 class=" text-align-left d-flex justify-content-center ">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. <br> Iure, possimus.</h5><br>
+                        <h5>MARK JAFFERSON</h5>
+                        <p>(DESIGNER)</p>
+                      </div>
+                    </div> 
+                  </div>
+                </div>   -->
+                <!-- <div class="col-md-2">
+                  <img width="100%" class="rounded-circle h-100 border border-2" src="./assets/user2.png" alt="">
+                </div>
+                <div class="col-4 text-light p-3">
+                  <h5 class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Iure, possimus.</h5><br>
+                  <h5>ELISE</h5>
+                  <p>(WEB-DEVELOPER)</p>
+                </div>
+              </div> -->
+            </div><br><br>
+            
+            <div class="container text-start border border-1 rounded">
+              <h3>LATEST NEWS</h3>
+              <hr>
+              <div class="row ">
+                <div class="col-4 ">
+                  <img class="h-95 w-100 rounded" src="./assets/news1.jpg" alt="">
+                  <h5 class="p-1">29 JULY 2022</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-4">
+                  <img class="h-95 w-100 rounded" src="./assets/news2.jpg" alt="">
+                  <h5 class="p-1">28 JUNE 2022</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-4">
+                  <img class="h-95 w-100 rounded" src="./assets/news3.jpg" alt="">
+                  <h5 class="p-1">05 AUGUST 2022</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  
+                </div>
+              </div>
+            </div><br>
+            
+            
+            <div class="container text-start border border-1 rounded ">
+              <h3>POPULAR BRANDS</h3>
+              <hr>
+              <div class="row p-2 gap-2">
+                <div class="col">
+                  <img src="./assets/1.jpg" alt="">
+                </div>
+                <div class="col">
+                  <img src="./assets/2.jpg" alt="">
+                </div>
+                <div class="col">
+                  <img src="./assets/3.jpg" alt="">
+                </div>
+            <div class="col">
+              <img src="./assets/4.jpg" alt="">
+            </div>
+            <div class="col">
+              <img src="./assets/5.jpg" alt="">
+            </div>
+          </div>
+        </div><br>
+      </div>
+    </div><br>
+      <footer class="header container-fluid  text-white  p-2 footerweb">
+        <main class="container">
+            <section class="row">
+
+
+              <div class="col-md-3">
+                <div class="row">
+                  <div class="col-3">
+
+                    <div class="text-warning p-2">
+
+                      <i class="fa-solid fa-truck fs-1"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-9">
+
+                    <div class="text-white text-center pt-2">
+
+
+                      <h5>FREE DELIVERY</h5>
+                      <p>Free Shipping On All Order</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="row">
+                  <div class="col-3">
+
+                    <div class="text-warning p-2">
+
+                      <i class="fa-solid fa-sack-dollar fs-1"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-9">
+
+                    <div class="text-white text-center pt-2">
+
+
+                      <h5>MONEY RETURN</h5>
+                      <p>Back Guarantee In 7 Days</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="col-md-3">
+                <div class="row">
+                  <div class="col-3">
+
+                    <div class="text-warning p-2">
+
+                      <i class="fa-solid fa-percent fs-1"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-9">
+
+                    <div class="text-white text-center pt-2">
+
+
+                      <h5>Member Discount</h5>
+                      <p>Onevery Order Over $130.00</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="row">
+                  <div class="col-3">
+
+                    <div class="text-warning p-2">
+
+                      <i class="fa-solid fa-hand-holding-dollar fs-1"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-9">
+
+                    <div class="text-white text-center pt-2">
+
+                      <h5>Return Policy</h5>
+                      <p>Support 24 Hours A Day</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <br>
+            <hr>
+            <section class="row">
+
+              <div class="col-md-6 text-start">
+                <div>
+                  <h2>Store Information</h2>
+                  <p><i class="fa-solid fa-location-dot"></i> Bigstore - Online Mega Store
+                    507-Union Trade Centre
+                    France</p>
+                  <p>
+                    <a href="tel:000000000" class="text-white text-decoration-none">
+                      <i class="fa-solid fa-phone"></i> 000-000-0000
+                    </a>
+                  </p>
+                  <p>
+                    <a href="mailto:someone@gmail.com" class="text-white text-decoration-none">
+                      <i class="fa-solid fa-envelope"></i> sales@yourcompany.com
+                    </a>
+                  </p>
+                </div>
+              </div>
+
+
+              <div class="col-md-6">
+                <div class="text-center">
+
+                  <h2>Newsletter</h2>
+
+                  <p>Subscribe to our latest newsletter to get news about special discounts.</p>
+
+                  <div class="d-flex p-2 seachBar " role="search">
+                    <input class="form-control rounded-0 " type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn bg-white rounded-0" type="submit">
+                      <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                  </div>
+                  <a href="">
+                    <img src="./assets/app-icon-1.png" alt="appStore">
+                  </a>
+                  <a href="">
+                    <img src="./assets/app-icon-2.png" alt="GooglePLay">
+                  </a>
+                </div>
+              </div>
+
+            </section>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <section class="row m-0">
+
+              <div class="col-md-4">
+                <div class="d-flex justify-content-around">
+
+
+                  <a href="" class="text-white  fs-3">
+                    <i class="fa-brands fa-facebook"></i>
+
+                  </a>
+                  <a href="" class="text-white   fs-3"> <i class="fa-brands fa-twitter"></i></a>
+                  <a href="" class="text-white   fs-3"> <i class="fa-solid fa-rss"></i></a>
+                  <a href="" class="text-white  fs-3"> <i class="fa-brands fa-youtube"></i></a>
+                  <a href="" class="text-white   fs-3"> <i class="fa-brands fa-pinterest"></i></a>
+                  <a href="" class="text-white   fs-3"> <i class="fa-brands fa-instagram"></i></a>
+
+                </div>
+
+              </div>
+
+              <div class="col-md-4">
+
+                <div class="m-0 mt-3" style="font-size:0.9rem ;">
+
+                  <p>
+                    © 2022 - Ecommerce software by PrestaShop™
+                  </p>
+                </div>
+
+              </div>
+
+              <div class="col-md-4">
+
+                <div class="d-flex justify-content-around m-0 my-2">
+                  <img src="./assets/carte_bleue.png" alt="">
+                  <img src="./assets/visa.png" alt="">
+                  <img src="./assets/master_card.png" alt="">
+                  <img src="./assets/american_express.png" alt="">
+                  <img src="./assets/paypal.png" alt="">
+                </div>
+
+              </div>
+
+            </section>
+
+          </main>
+
+        </footer>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

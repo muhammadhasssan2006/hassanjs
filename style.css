@@ -1,0 +1,107 @@
+
+.seachinp{
+width: 800px !important;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .seachinp {
+        width: 100%
+    }
+  }
+  .cartcolor{
+    background-color: #2c3e50;
+  }
+  @media only screen and (max-width: 800px) {
+    .section3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+
+
+  .img-1{
+    background-image: url(./assets/bk-img-1.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 200px;
+    background-repeat: no-repeat;
+  }
+  .img-2{
+    background-image: url(./assets/bk-img-2.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 200px;
+    background-repeat: no-repeat;
+  }
+  .img-3{
+    background-image: url(./assets/bk-img-3.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 200px;
+    background-repeat: no-repeat;
+
+  }
+
+  .anchortag1{
+    color: black;
+    text-decoration: underline;
+    position: absolute;
+    left: 5%;
+  }
+  .anchortag2{
+    color: black;
+    text-decoration: underline;
+    position: absolute;
+    left: 40%
+  }
+  .anchortag3{
+    color: black;
+    text-decoration: underline;
+    /* position: absolute; */
+    left: 72%
+  }
+  .img-4{
+    background-image: url(./assets/bk-img-4.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 200px;
+    background-repeat: no-repeat;
+
+  }
+  .img-5{
+    background-image:url(./assets/bk-img-5.jpg) ;
+    background-size: 100%;
+    background-position: center;
+    height: 200px;
+    background-repeat: no-repeat;
+  }
+  .anchortag4{
+    color: white;
+    text-decoration: underline;
+    position: absolute;
+    font-size: 18px;
+    left: 6%;
+  }
+  .anchortag5{
+    color:black;
+    font-size: 18px;
+    text-decoration: underline;
+    position: absolute;
+    left: 55%;
+  }
+  .offer-banner{
+    background-image: url(./assets/offer-banner.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 130px;
+    background-repeat: no-repeat;
+  }
+.footerweb{
+  left: 0%;
+  margin: 0px;
+  background-color: #223447;
+  width: 1200px;
+}
